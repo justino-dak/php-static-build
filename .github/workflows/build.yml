@@ -30,7 +30,7 @@ jobs:
           sudo make install
 
       - name: Upload Binary
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: php-binary
           path: /usr/local/bin/php
